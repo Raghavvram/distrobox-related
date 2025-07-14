@@ -4,7 +4,7 @@ set -e
 # This script creates a rootless Kali Linux distrobox container.
 
 # --- Configuration ---
-CONTAINER_NAME="ubuntu"
+CONTAINER_NAME="Ubuntu"
 IMAGE="kalilinux/kali-last-release"
 HOME_DIR="$HOME/distrobox/ubuntu-home/"
 
