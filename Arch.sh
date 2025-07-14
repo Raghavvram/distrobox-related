@@ -8,7 +8,7 @@ set -e
 CONTAINER_NAME="Arch"
 IMAGE="docker.io/library/archlinux:latest"
 ADDITIONAL_PACKAGES="systemd docker"
-HOME_DIR="$HOME/distrobox/Arch"
+HOME_DIR="$HOME/distrobox/arch-home"
 
 # --- Script ---
 distrobox create \
