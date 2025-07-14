@@ -11,7 +11,7 @@ ADDITIONAL_PACKAGES="systemd docker"
 HOME_DIR="$HOME/distrobox/Arch"
 
 # --- Script ---
-distrobox create --root \
+distrobox create \
   --image "$IMAGE" \
   --additional-packages "$ADDITIONAL_PACKAGES" \
   --init \
